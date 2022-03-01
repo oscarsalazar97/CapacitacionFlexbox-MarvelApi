@@ -1,0 +1,203 @@
+.card-character{
+    background: white;
+    padding: 15px;
+    /* Acá debemos agregar flexbox */
+}
+
+.card-img-character{
+    position: relative;
+    top: -30px;
+    left: -30px;
+    border-radius: 50%;
+    width: 170px;
+    box-shadow: 3px 10px 14px -6px rgba(0,0,0,0.25);
+}
+
+.card-cont{
+    position: relative;
+    top: -40px;
+}
+
+.card-cont h3{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card-cont p{
+    color: #7B7170;
+    font-size: 14px;
+}
+
+.card-cont .description{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.title-section{
+    /* Acá debemos agregar flexbox */
+    margin: 0 0 20px 0;
+}
+
+.title-favorites{
+    /* Acá debemos agregar flexbox */
+}
+
+.title-favorites img{
+    margin: 0 10px 0 0;
+}
+
+.comics ul{
+    /* Acá debemos agregar flexbox */
+    list-style: none;
+    padding-left: 0;
+}
+
+.comics ul li{
+    width: 33%;
+    margin: 0 10px;
+}
+
+.comics ul li img{
+    width: 100px;
+}
+
+.comics ul li button{
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.comics ul li button:hover{
+    background: #f3f3f3;
+}
+
+.single-comic ul li{
+    /* Acá debemos agregar flexbox */
+}
+
+.single-comic ul li h5{
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.single-comic ul li p{
+    font-size: 14px;
+}
+
+.single-comic ul li img{
+    width: 300px;
+}
+
+.single-comic ul li{
+    width: 100%;
+    margin: 0 10px;
+}
+
+.single-comic .content-comic{
+    margin: 0 0 0 20px;
+}
+
+
+.input-sort{
+    background: #fff;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #DCDCDC;
+    border: 0;
+}
+
+.overlay{
+    background: rgb(0 0 0 / 38%);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal{
+    max-width: 800px;
+    width: auto;
+    margin: 1.75rem auto;
+    background: white;
+    z-index: 3;
+    position: relative;
+}
+
+.modal-body{
+    padding: 20px;
+}
+
+.title-modal{
+    /* Acá debemos agregar flexbox */
+}
+
+.title-modal-single-comic{
+    /* Acá debemos agregar flexbox */
+}
+
+header{
+    /* Acá debemos agregar flexbox */
+    background: #2D2727;
+    padding: 15px 10px;
+}
+
+.logo-header img{
+    width: 150px;
+}
+
+.search-box{
+    width: 100%;
+    /* Acá debemos agregar flexbox */
+}
+
+.search-box input{
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 2px 15px;
+}
+
+.search-box span img{
+    right: 45px;
+    position: relative;
+}
+
+.footer-card{
+    /* Acá debemos agregar flexbox */
+}
+
+aside .list-of-comics{
+    text-align: center;
+}
+
+aside .list-of-comics ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+aside .list-of-comics ul li{
+    position: relative;
+}
+
+aside .list-of-comics ul li button{
+    position: absolute;
+    right: 25px;
+    top: -15px;
+}
+
+aside .list-of-comics button img{
+    width: 30px;
+}
+
+aside .list-of-comics img{
+    width: 200px;
+}

@@ -1,0 +1,13 @@
+.card-character{
+    background: white;
+    padding: 15px;
+}
+
+.card-img-character{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.title-section{
+    /* Acá debemos agregar flexbox */
+}

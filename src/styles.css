@@ -1,0 +1,119 @@
+body{
+    background: #F4F4F4;
+}
+
+body, button, a, label{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, figure{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #3C3231;
+    font-weight: 700;
+}
+
+input{
+    border: none;
+}
+
+.content{
+    /* Acá debemos agregar flexbox */
+}
+
+.fila{
+    /* Acá debemos agregar flexbox */
+}
+
+.padding-sections{
+    padding: 10px 25px;
+}
+
+.list-characters{
+    /* Acá debemos agregar flexbox */
+}
+
+.aside-favorite-comics{
+    background: #EBEBEB;
+    /* Acá debemos agregar flexbox */
+}
+
+.btn-base{
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: 600;
+}
+
+button.button-primary{
+    padding: 15px 10px;
+    text-transform: uppercase;
+    color: white;
+    background: #EC1E23;
+    transition: all ease-in-out 0.5s;
+}
+
+button.button-primary:hover{
+    box-shadow: 3px 10px 14px -6px rgba(0,0,0,0.25);
+    background: #b31518;
+}
+
+button.button-add{
+    background: #F0F0F0;
+}
+
+button.button-buy{
+    background: #DCDCDC;
+    color: #EC1D23;
+}
+
+.button-add, .button-buy{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+    width: 50%;
+}
+
+.button-add img, .button-buy img{
+    margin: 0 10px 0 0;
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header, .content {
+      /* Acá debemos agregar flexbox */
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .fila{
+        /* Acá debemos agregar flexbox */
+    }
+
+    .overlay .modal{
+        max-width: 400px !important;
+    }
+
+    .comics ul{
+        /* Acá debemos agregar flexbox */
+    }
+}
+
