@@ -21,10 +21,16 @@ input{
 
 .content{
     /* Acá debemos agregar flexbox */
+    display: flex;
+    justify-content: space-between;
 }
 
 .fila{
     /* Acá debemos agregar flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    
+    
 }
 
 .padding-sections{
@@ -33,10 +39,12 @@ input{
 
 .list-characters{
     /* Acá debemos agregar flexbox */
+    flex: 3;    
 }
 
 .aside-favorite-comics{
     background: #EBEBEB;
+    flex: 1;
     /* Acá debemos agregar flexbox */
 }
 
@@ -100,6 +108,7 @@ button.button-buy{
 @media screen and (max-width: 768px) {
     header, .content {
       /* Acá debemos agregar flexbox */
+      
     }
 }
 

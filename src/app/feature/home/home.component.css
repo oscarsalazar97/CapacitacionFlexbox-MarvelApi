@@ -1,6 +1,12 @@
 .card-character{
     background: white;
     padding: 15px;
+    margin: 10px;
+    height: 205px;
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     /* Acá debemos agregar flexbox */
 }
 
@@ -16,6 +22,7 @@
 .card-cont{
     position: relative;
     top: -40px;
+    flex:5;
 }
 
 .card-cont h3{
@@ -37,11 +44,16 @@
 
 .title-section{
     /* Acá debemos agregar flexbox */
-    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title-favorites{
     /* Acá debemos agregar flexbox */
+  display: flex;
+  align-items: center;
+    
 }
 
 .title-favorites img{
@@ -52,6 +64,8 @@
     /* Acá debemos agregar flexbox */
     list-style: none;
     padding-left: 0;
+    display: flex;
+    
 }
 
 .comics ul li{
@@ -78,6 +92,7 @@
 
 .single-comic ul li{
     /* Acá debemos agregar flexbox */
+    display: flex;
 }
 
 .single-comic ul li h5{
@@ -138,14 +153,21 @@
 
 .title-modal{
     /* Acá debemos agregar flexbox */
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .title-modal-single-comic{
     /* Acá debemos agregar flexbox */
+    display: flex;
+    justify-content: flex-end;
 }
 
 header{
     /* Acá debemos agregar flexbox */
+    display: flex;
+    align-items: center;
     background: #2D2727;
     padding: 15px 10px;
 }
@@ -155,6 +177,8 @@ header{
 }
 
 .search-box{
+    display: flex;
+    justify-content: center;
     width: 100%;
     /* Acá debemos agregar flexbox */
 }
